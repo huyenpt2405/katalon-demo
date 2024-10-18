@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03 User can get a single book by id</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>81238b60-e2cd-4599-b432-41d9bd31e3cd</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>cba75563-2c4b-4a6d-93e7-c7b97405ec83</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Books/Books TC02</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>cba75563-2c4b-4a6d-93e7-c7b97405ec83</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>bookId</value>
+      <variableId>9c28c330-fd14-479e-a909-67e35d3af571</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>cba75563-2c4b-4a6d-93e7-c7b97405ec83</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>name</value>
+      <variableId>213b461e-0d8d-432c-9e3c-b7c09397ba36</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Books/Books TC02')</defaultValue>
+      <description></description>
+      <id>9c28c330-fd14-479e-a909-67e35d3af571</id>
+      <masked>false</masked>
+      <name>bookId</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Books/Books TC02')</defaultValue>
+      <description></description>
+      <id>213b461e-0d8d-432c-9e3c-b7c09397ba36</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>

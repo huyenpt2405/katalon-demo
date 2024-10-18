@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01 Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>204b7858-81c7-4603-9f07-a74c05f603d6</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>cd8292f1-0275-4a28-b79b-f82b43ebe229</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Book Appointment/TC01</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>cd8292f1-0275-4a28-b79b-f82b43ebe229</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>b4ed4e73-ede7-4608-a8a4-5291720e159f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>cd8292f1-0275-4a28-b79b-f82b43ebe229</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>a62213cb-372a-4c99-8d1e-c7c667f2ed57</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b4ed4e73-ede7-4608-a8a4-5291720e159f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a62213cb-372a-4c99-8d1e-c7c667f2ed57</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

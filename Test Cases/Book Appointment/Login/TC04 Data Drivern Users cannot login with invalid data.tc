@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04 Data Drivern Users cannot login with invalid data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0aaf2804-6774-4cc9-8359-bfea15d8cc8d</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>85bda52b-0698-4ef9-b14d-a81fdc5ac355</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Book Appointment/Login/TC04 Invalid data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>85bda52b-0698-4ef9-b14d-a81fdc5ac355</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>2f9c5a3e-4aa3-42e6-8ec9-0ab8874f76aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>85bda52b-0698-4ef9-b14d-a81fdc5ac355</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>ebd3a870-fd17-49aa-a556-193fdcaba989</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2f9c5a3e-4aa3-42e6-8ec9-0ab8874f76aa</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ebd3a870-fd17-49aa-a556-193fdcaba989</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

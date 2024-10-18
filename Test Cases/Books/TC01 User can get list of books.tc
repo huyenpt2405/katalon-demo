@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01 User can get list of books</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6135c2e0-ba3c-41f7-a088-5462b93f6a0f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01 Users cannot login with incorrect username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>727666de-2f96-4457-bb5d-4a256ed47cf7</testCaseGuid>
+</TestCaseEntity>
